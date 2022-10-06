@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.bx {
+    color: aliceblue;
+    padding-right: 5px;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    padding-left: 50px;
+    font-size: 25px;
+    background-color: #0f0c27;
+    border-bottom: solid 0.5px;
+    border-color: aliceblue;
+   
+}
+header a:hover{
+    color: blue;
+}
+
+ul a{
+    font-size: 1rem;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    width:50%;
+    font-size: 25px;
+    list-style: none;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background-color: #0f0c27;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.home-text{
+    color: white;
+    padding-top: 250px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 25%;
+}
+.btn:hover{
+    color: blue;
+    background-color: rgb(0, 0, 92);
+}
+.social{
+    padding: 70px 10%;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.social a{
+    padding-top: px;
+    
+}
+.social a i{
+    font-size: 1.5rem;
+    color:white;
+    margin-top: 1rem;
+}
+.img{
+    padding-top: 180px;
+    padding-right: 100px;
+    padding-left: 300px;
+    
+}
+.about-me{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #0f0c27;
+    font-size: 20px;
+    height: 100vh;
+    padding-top: 100px;
+}
+.intro{
+    text-align: left;
+    padding-left: 700px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+.img2{
+    width: 30%;
+    height: 50%;
+    padding-left: 80px; 
+    margin-top: -300px;
+}
+.btn2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 18px;
+    background-color:blue;
+    margin-left: 700px;
+    margin-right: 680px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn2:hover{
+    color: blue;
+    background-color: rgb(0, 0, 92);
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    padding-top: 100px;
+    background-color: #0f0c27;
+    font-size: 20px;
+}
+.skill-img{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1000px;
+    padding-right: 70px;
+    margin-top: -400px;
+}
+.sk-head{
+    text-align: center;
+    color: white;
+}
+.ms{
+    padding-left: 720px;
+    font-size: 20px;
+    color:green;
+}
+.bar-boxes{
+    padding-top: 100px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.bar-boxes h3{
+    padding-left: 70px;
+    font-size: 25px;
+}
+.bar-boxes span{
+    font-size: 20px;
+    padding-left: 800px;
+    margin-top: -20px;
+}
+.light-bar1{
+    width: 48%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 1rem;
+    margin-left: 70px;
+}
+.light-bar2{
+    width: 43%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 1rem;
+    margin-left: 70px;
+}
+.light-bar3{
+    width: 35%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 1rem;
+    margin-left: 70px;
+}
+.light-bar4{
+    width: 47%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 1rem;
+    margin-left: 70px;
+}
+.light-bar5{
+    width: 37%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 1rem;
+    margin-left: 70px;
+}
+.area{
+    height: 100vh;
+    padding-top: 100px;
+    color: white;
+    background-color: #0f0c27;
+    font-size: 20px;
+}
+.aoe{
+    text-align: center;
+}
+.ao{
+    padding: 740px;
+    color: green;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    font-size: 200px;
+    padding-top: 100px;
+    padding-left: 130px;
+}
+.exp2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    font-size: 200px;
+    margin-top: -200px;
+    padding-left: 550px;
+}
+.exp3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    font-size: 200px;
+    margin-top: -200px;
+    padding-left: 900px;
+}
+.exp4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    font-size: 200px;
+    margin-top: -200px;
+    padding-left: 1220px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 140px;
+    padding-right: 160px;
+}
+
+.Projects{
+    height: 100vh;
+    padding-top: 100px;
+    background-color: #0f0c27;
+    font-size:20px;
+    color: white;
+    
+}
+.pr{
+    color: white;
+    text-align: center;
+}
+.pr2{
+    padding-left: 710px;
+    color: green;
+}
+.pimg{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+.pimg2{
+    display: flex;
+    flex-direction: column;
+    padding-left:620px;
+    margin-top: -320px;
+}
+.pimg3{
+    display: flex;
+    flex-direction: column;
+    padding-left:1160px;
+    margin-top: -230px;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 140px;
+    padding-right: 160px;
+   
+}
+.f{
+    height:70vh;
+    background-color: #0f0c27;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.submit{
+    color: white;
+    background-color: blue;
+    width:5%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.submit:hover{
+    color: blue;
+    background-color: rgb(0, 0, 92);
+}
+
+.form input{
+    background-color: #0f0c27;
+}
